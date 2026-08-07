@@ -280,7 +280,7 @@ function Home() {
 
         <div className="gallery-item">
           <img
-            src="https://images.unsplash.com/photo-1576765607924-8ac54cff2ac6?auto=format&fit=crop&w=700&q=80"
+            src="https://i.pinimg.com/736x/5f/2b/0e/5f2b0e3c0a269c68ca133337eb2b9a7d.jpg"
             alt="Health worker attending to a community member"
           />
           <span className="gallery-caption">Health & Nutrition</span>
