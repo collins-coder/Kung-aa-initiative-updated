@@ -15,29 +15,21 @@ import {
 const socialLinks = [
   {
     icon: <FiFacebook />,
-    href: "https://facebook.com/kungaainitiative",
+    href: "https://www.facebook.com/search/top?q=nutritionist%20anne%20ngeno",
     label: "Facebook",
   },
   {
     icon: <FiInstagram />,
-    href: "https://instagram.com/kungaainitiative",
+    href: "https://www.instagram.com/nutritionist_anne_ngeno/",
     label: "Instagram",
   },
-  {
-    icon: <FiTwitter />,
-    href: "https://twitter.com/kungaainitiative",
-    label: "Twitter / X",
-  },
+
   {
     icon: <FiLinkedin />,
-    href: "https://linkedin.com/company/kungaainitiative",
+    href: "https://www.linkedin.com/in/anne-maina-2a754419b",
     label: "LinkedIn",
   },
-  {
-    icon: <FiYoutube />,
-    href: "https://youtube.com/@kungaainitiative",
-    label: "YouTube",
-  },
+
 ];
 
 const quickLinks = [
