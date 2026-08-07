@@ -1284,4 +1284,86 @@ button{
   color:var(--dark);
   transform:translateY(-3px);
 }
+
+/* ===================================
+   MOBILE RESPONSIVE
+=================================== */
+
+@media screen and (max-width: 768px) {
+
+  /* Navbar */
+  .navbar{
+    padding:15px 5%;
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .logo{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .logo img{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+  }
+
+  .logo h2{
+    font-size:1.4rem;
+    text-align:center;
+  }
+
+  .nav-links{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:16px;
+  }
+
+  .nav-links a{
+    font-size:.95rem;
+  }
+
+  /* Hero */
+
+  .hero{
+    min-height:100vh;
+    padding:50px 20px;
+  }
+
+  .hero-content{
+    padding:0;
+  }
+
+  .hero-content h1{
+    font-size:2.5rem;
+    line-height:1.15;
+  }
+
+  .hero-content p{
+    font-size:1rem;
+    line-height:1.7;
+  }
+
+  .hero-eyebrow{
+    font-size:.75rem;
+    padding:8px 18px;
+  }
+
+  .hero-buttons{
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+  }
+
+  .hero-buttons .btn{
+    width:100%;
+    max-width:280px;
+  }
+
+}
 }
