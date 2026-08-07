@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 import {
   FiFacebook,
   FiInstagram,
-  FiTwitter,
   FiLinkedin,
-  FiYoutube,
   FiMail,
   FiPhone,
   FiMapPin,
